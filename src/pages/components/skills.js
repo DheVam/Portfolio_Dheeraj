@@ -22,7 +22,7 @@ export default function Skills() {
             href={link} 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+            className="flex items-center gap-2 px-10 py-10 bg-gray-800 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
           >
             <span className="text-2xl">{icon}</span>
             <span className="font-semibold">{name}</span>
