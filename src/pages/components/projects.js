@@ -46,12 +46,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="h-screen bg-gray-900 text-white text-center flex flex-col">
+    <section id="projects" className=" bg-gray-900 text-white text-center flex flex-col">
       {/* Section Heading */}
-      <h2 className="text-4xl font-extrabold tracking-wide mt-6">Projects</h2>
+      <h2 className="text-3xl font-extrabold mt-6">Projects</h2>
 
       {/* Project List with Flex-Grow */}
-      <div className="flex-grow overflow-y-auto max-h-[70vh] px-6 md:px-12 mt-6">
+      <div className="flex-grow overflow-hidden  px-4 md:px-8 mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map(({ name, link, githubLink, image, desc }) => (
             <div
